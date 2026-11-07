@@ -9,14 +9,14 @@ if oldGui then oldGui:Destroy() end
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "BoostSystemGui"
 ScreenGui.ResetOnSpawn = false
-ScreenGui.DisplayOrder = 9
+ScreenGui.DisplayOrder = 99999
 ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
 _G.UIElements.ScreenGui = ScreenGui
 
 local MenuShortcut = Instance.new("ImageButton", ScreenGui)
 MenuShortcut.Name = "MenuShortcut"
 MenuShortcut.Size = UDim2.new(0, 45, 0, 45)
-MenuShortcut.Position = UDim2.new(0, 15, 0, 15)
+MenuShortcut.Position = UDim2.new(0.5, 0, 0, 15)
 MenuShortcut.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 MenuShortcut.BackgroundTransparency = 0.3
 MenuShortcut.Image = "rbxassetid://130705104438925"
